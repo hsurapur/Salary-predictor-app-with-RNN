@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 
 # Load the trained model
-model = tf.keras.models.load_model('optimized_model.keras')
+model = tf.keras.models.load_model('rnn_model.keras')
 
 # Load the encoders and scaler
 with open('label_encoder_gender.pkl', 'rb') as file:
